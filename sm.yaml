@@ -46,7 +46,7 @@ spec:
       serviceAccountName: bookinfo-details
       containers:
       - name: details
-        image: docker.io/maistra/examples-bookinfo-details-v1:0.12.0
+        image: quay.io/srereddy/sample:examples-bookinfo-details-v1-0.12.0
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9080
@@ -99,7 +99,7 @@ spec:
       serviceAccountName: bookinfo-ratings
       containers:
       - name: ratings
-        image: docker.io/maistra/examples-bookinfo-ratings-v1:0.12.0
+        image: quay.io/srereddy/sample:examples-bookinfo-ratings-v1-0.12.0
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9080
@@ -152,7 +152,7 @@ spec:
       serviceAccountName: bookinfo-reviews
       containers:
       - name: reviews
-        image: docker.io/maistra/examples-bookinfo-reviews-v1:0.12.0
+        image: quay.io/srereddy/sample:examples-bookinfo-reviews-v1-0.12.0
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9080
@@ -181,7 +181,7 @@ spec:
       serviceAccountName: bookinfo-reviews
       containers:
       - name: reviews
-        image: docker.io/maistra/examples-bookinfo-reviews-v2:0.12.0
+        image: quay.io/srereddy/sample:examples-bookinfo-reviews-v2-0.12.0
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9080
@@ -210,7 +210,7 @@ spec:
       serviceAccountName: bookinfo-reviews
       containers:
       - name: reviews
-        image: docker.io/maistra/examples-bookinfo-reviews-v3:0.12.0
+        image: quay.io/srereddy/sample:examples-bookinfo-reviews-v3-0.12.0
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9080
@@ -263,7 +263,7 @@ spec:
       serviceAccountName: bookinfo-productpage
       containers:
       - name: productpage
-        image: docker.io/maistra/examples-bookinfo-productpage-v1:0.12.0
+        image: quay.io/srereddy/sample:examples-bookinfo-productpage-v1-0.12.0
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9080
